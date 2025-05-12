@@ -7,4 +7,4 @@ This repo contains some of random Java programs I wrote just for fun. Honestly, 
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/Random.java.git
+   git clone https://github.com/Sudeepp-Mishra/Random.java.git
