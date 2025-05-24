@@ -2,7 +2,7 @@ package bankpack;
 
 public class BankClass implements Bank {
 	int TotalAmount=10000;
-	public void deposite(int depositeBalance) {
+	public void deposit(int depositeBalance) {
 		System.out.println("Amount deposited: " + depositeBalance);
 		TotalAmount += depositeBalance;
 	}
