@@ -3,7 +3,7 @@ import javafx.application.Application; // Base class for JavaFX applications
 import javafx.stage.Stage; // Represents the primary window (stage) in a JavaFX application
 
 // Your main class must extend 'Application' to use JavaFX
-public class Frame extends Application {
+public class FrameStage extends Application {
 
     /**
      * The 'start' method is the main entry point for all JavaFX applications.
@@ -19,7 +19,7 @@ public class Frame extends Application {
         primaryStage.show();
     }
 
-    /** 
+    /**
      * The 'main' method is needed to launch the JavaFX application.
      * 'launch(args)' internally calls the 'start' method after setting up JavaFX.
      */
