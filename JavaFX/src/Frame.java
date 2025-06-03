@@ -19,11 +19,15 @@ public class Frame extends Application {
         primaryStage.show();
     }
 
-    /**
+    /** 
      * The 'main' method is needed to launch the JavaFX application.
      * 'launch(args)' internally calls the 'start' method after setting up JavaFX.
      */
     public static void main(String[] args){
+        // launch(args) is a static method from the Application class that starts the JavaFX application.
+        // It sets up the JavaFX runtime and calls the overridden start() method.
+        // 'args' refers to command-line arguments passed to the program (can be used later via getParameters()).
+        // It's optional to pass 'args' — you can just write launch(); if you're not using command-line inputs.
         launch(args); // This starts the JavaFX application lifecycle
     }
 }
