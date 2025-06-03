@@ -122,3 +122,32 @@ public class Components extends Application {
         launch(); // If needed, args could be passed: launch(args)
     }
 }
+/*
+ -------------------------------
+    Other Controls in JavaFX
+ -------------------------------
+
+ These are other useful JavaFX UI components you can explore:
+
+ | Control Name        | Description                                                                                   |
+ |---------------------|-----------------------------------------------------------------------------------------------|
+ | PasswordField       | A text field that hides input characters (useful for passwords).
+ | DatePicker          | A calendar popup to let the user select a date.
+ | ColorPicker         | Opens a color chooser dialog for selecting colors.
+ | ChoiceBox           | A simpler alternative to ComboBox, used for small sets of options.
+ | TableView           | Displays data in a table format with rows and columns (like Excel).
+ | TreeView            | Hierarchical tree display (like file explorers).
+ | MenuBar, MenuItem   | Used to create application menus (File, Edit, Help, etc.).
+ | ToggleButton        | A button that stays pressed or toggled when clicked.
+ | Tooltip             | Small text box that appears when hovering over a control.
+ | Separator           | Adds a visual horizontal or vertical divider line in layouts.
+ | ScrollBar           | Adds scrollbars for large content areas.
+ | ScrollPane          | A layout container that adds scrolling capability to any content.
+ | ImageView           | Used to display an image inside the scene.
+ | Canvas              | A blank drawing surface where you can draw shapes, lines, etc.
+ | WebView             | A built-in web browser component for displaying HTML content.
+
+ These can be added to your app just like basic controls, often needing slight adjustments to layout or containers.
+
+ You can experiment with them gradually to build more interactive and feature-rich interfaces!
+*/
