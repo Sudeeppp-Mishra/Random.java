@@ -5,13 +5,13 @@ import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 /**
- * 📘 StackPane Layout
+ * StackPane Layout
  *
  * StackPane stacks all child nodes on top of each other in a single stack.
  * - The *last added* node appears on top (like a stack of cards).
  * - Nodes are centered by default, but you can adjust alignment if needed.
  *
- * 🔸 Common Use-Cases:
+ * Common Use-Cases:
  * - Displaying a label or button on top of an image or shape.
  * - Creating overlays (e.g., loading spinners or modals).
  * - Temporarily showing/hiding UI elements (toggling visibility).
@@ -31,8 +31,17 @@ public class StackPaneLayout extends Application {
                 new Button("Top Button")      // This is added last → appears on top
         );
 
+        // If we want to see both button at once we should do:
         /**
-         * 🔍 Observation:
+         * Button bottom = new Button("Bottom Button");
+         * Button top = new Button("Top Button");
+         * top.setTranslateY(-20);  // move it up a bit
+         * bottom.setTranslateY(20); // move it down a bit
+         * stackPane.getChildren().addAll(bottom, top);
+         */
+        
+        /**
+         * Observation:
          * Since both buttons are stacked and centered,
          * the "Top Button" will completely cover the "Bottom Button".
          *
