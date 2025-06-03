@@ -39,7 +39,7 @@ public class StackPaneLayout extends Application {
          * bottom.setTranslateY(20); // move it down a bit
          * stackPane.getChildren().addAll(bottom, top);
          */
-        
+
         /**
          * Observation:
          * Since both buttons are stacked and centered,
