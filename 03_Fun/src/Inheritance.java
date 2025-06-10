@@ -2,12 +2,12 @@ public class Inheritance {
     int data = 30;
 
     public static void main(String[] args){
-        Child c = new Child();
+        Child1 c = new Child1();
         c.show();
     }
 }
 
-class Child extends Inheritance{
+class Child1 extends Inheritance{
     int data = 40;
     void show(){
         System.out.print("Local Scope: "+data);
