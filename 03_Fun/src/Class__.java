@@ -1,6 +1,6 @@
-public class class__ {
+public class Class__ {
     int n;
-    class__(){
+    Class__(){
         n = 10;
     }
 
@@ -9,7 +9,7 @@ public class class__ {
     }
 
     public static void main(String[] args){
-        class__ c= new class__();
+        Class__ c= new Class__();
         c.show();
         System.out.print("\n"+c.n);
     }
