@@ -11,6 +11,9 @@ public class List_ {
             System.out.println(nameList.get(i));
         }
 
+        String name0 = nameList.get(0);
+        System.out.println("\n\n"+name0);
+
         nameList.remove(0);
         nameList.remove("Sudeep");
 
