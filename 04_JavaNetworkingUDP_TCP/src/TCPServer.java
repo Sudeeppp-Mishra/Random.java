@@ -21,11 +21,19 @@ public class TCPServer {
         // Then wrap it in InputStreamReader and BufferedReader to read text easily
         BufferedReader reader = new BufferedReader(new InputStreamReader(input));
 
+        // Prepare to send message to client
+        OutputStream output = socket.getOutputStream(); // Get raw output stream to client
+        PrintWriter writer = new PrintWriter(output, true); // Wrap it to send text easily (auto-flush true)
+
         // Read a line of text sent by the client (until newline \n is received)
         String message = reader.readLine();
 
         // Show the received message on the server side
         System.out.println("Received from client: " + message);
+
+        // Send reply back to client
+        String reply = "Hello from Server!"; // You can modify this as needed
+        writer.println(reply); // Sends the message with newline
 
         // Close everything — good habit!
         reader.close();         // Close reader first
