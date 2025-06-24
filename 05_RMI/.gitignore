@@ -3,6 +3,15 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
+# === Java Build Files ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Log Files ===
+*.log
+
 ### Eclipse ###
 .apt_generated
 .classpath
