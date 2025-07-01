@@ -10,7 +10,7 @@ import java.sql.*;
 public class addToDatabase extends HttpServlet {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/formDB";
     private static final String USER = "root";
-    private static final String PASSWORD = "$udeep Mi$hr@2006";
+    private static final String PASSWORD = "<your-password>";
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
