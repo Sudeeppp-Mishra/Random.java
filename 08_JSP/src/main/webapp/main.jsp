@@ -42,7 +42,7 @@ else {
     // JDBC connection info
     String DB_URL = "jdbc:mysql://localhost:3306/formDB";
     String DB_USER = "root";
-    String DB_PASS = "";  // or your MySQL password
+    String DB_PASS = "<your-password>"; 
 
     try {
         Class.forName("com.mysql.cj.jdbc.Driver");  // Ensure driver is loaded
