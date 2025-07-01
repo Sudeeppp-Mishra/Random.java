@@ -1,4 +1,4 @@
-package com.example._07_servlet;
+package servletpack;
 
 import jakarta.servlet.annotation.WebServlet;  // Annotation to declare servlet and URL mapping
 import jakarta.servlet.http.HttpServlet;       // Base class for HTTP servlets
