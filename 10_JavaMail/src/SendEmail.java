@@ -35,7 +35,7 @@ public class SendEmail {
         Message msg = new MimeMessage(session);                      // MimeMessage = email with header + body
         msg.setFrom(new InternetAddress(senderEmail));               // Set sender address
         msg.setRecipients(Message.RecipientType.TO,                  // Set recipient(s)
-                InternetAddress.parse(recipientEmail));
+                InternetAddress.parse(recipientEmail)); // For only one Recipient we can use **msg.setRecipient(Message.RecipientType.TO, new InternetAddress(email));**
         msg.setSubject("Hello from Java!");                          // Email subject
         msg.setText("Hi there,\n\nThis email was sent using JavaMail API."); // Email body (plain text)
 
