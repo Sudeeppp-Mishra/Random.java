@@ -8,6 +8,21 @@ import java.sql.*;
 public class CreateDB {
     public static void main(String[] args) throws Exception {
 
+	/*
+ 	* Loading the JDBC Driver
+ 	* -----------------------
+ 	* Class.forName("com.mysql.cj.jdbc.Driver") dynamically loads the MySQL JDBC driver class.
+ 	*
+ 	* Why it's used:
+ 	* - It registers the driver with DriverManager.
+ 	* - Required in older versions of Java (before JDBC 4.0).
+ 	* - In modern Java (Java 7+), this is optional if the driver JAR includes the proper Service Provider configuration.
+	*
+ 	* Note:
+ 	* - If you’re using a newer MySQL connector (e.g., mysql-connector-java 8.0+), you can often omit this line.
+ 	* - However, adding it explicitly can ensure compatibility across environments.
+ 	*/
+
         // JDBC URL format: jdbc:mysql://host:port/database
         // Here, we’re connecting only to the server (not a specific DB) to create one.
         String url = "jdbc:mysql://localhost:3306/";
