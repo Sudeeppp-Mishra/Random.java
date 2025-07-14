@@ -57,4 +57,23 @@ public class JDBCRowSet {
         - When you want a scrollable ResultSet.
         - When building GUI apps or need cleaner data navigation.
         - When staying connected to the database is okay.
+
+
+        ROWSET ADVANTAGES:
+
+        - Scrollable: Move cursor freely (first(), last(), previous(), etc.)
+        - Updatable: Modify and update data directly
+        - Disconnected (CachedRowSet): Work offline, sync later
+        - Event-driven: Can attach listeners (e.g., on row change)
+        - JavaBeans compliant
+
+        Types:
+        - JdbcRowSet: Connected, simple wrapper over ResultSet
+        - CachedRowSet: Disconnected, scrollable, updatable
+        - WebRowSet: XML-based
+        - FilteredRowSet: Filter rows dynamically
+        - JoinRowSet: Join multiple RowSets
+
+        Used when ResultSet is too limited or always connected.
+
 */
