@@ -9,7 +9,7 @@ import javafx.scene.layout.*;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
-public class Main extends Application {
+public class SimpleTaskManager extends Application {
 
     private ObservableList<String> tasks = FXCollections.observableArrayList();
 

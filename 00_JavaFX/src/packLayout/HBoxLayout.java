@@ -1,4 +1,4 @@
-// Import required JavaFX classes
+package packLayout;// Import required JavaFX classes
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;

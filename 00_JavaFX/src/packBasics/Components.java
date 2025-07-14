@@ -1,4 +1,4 @@
-// JavaFX package imports
+package packBasics;// JavaFX package imports
 
 import javafx.application.Application; // The base class for any JavaFX application. You must extend this class to create a JavaFX app.
 import javafx.scene.Scene; // Represents the content area (canvas) of the window (Stage).

@@ -1,4 +1,4 @@
-// Importing necessary JavaFX classes
+package packBasics;// Importing necessary JavaFX classes
 import javafx.application.Application; // Base class for JavaFX applications
 import javafx.stage.Stage; // Represents the primary window (stage) in a JavaFX application
 

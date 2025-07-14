@@ -1,4 +1,4 @@
-// Import necessary JavaFX packages
+package packLayout;// Import necessary JavaFX packages
 import javafx.application.Application;
 import javafx.stage.Stage;
 import javafx.scene.layout.*; // For BorderPane and other layout classes
