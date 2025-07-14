@@ -1,6 +1,8 @@
+package packException;
+
 import java.sql.*;
 
-public class JDBCExample {
+public class JDBCExceptionDemo {
     public static void main(String[] args) {
 
         // Initialize to null to handle cleanup in finally block safely

@@ -1,3 +1,5 @@
+package packDML;
+
 import java.sql.*; // Import the JDBC library (Java Database Connectivity) for DB operations
 
 public class InsertData {
