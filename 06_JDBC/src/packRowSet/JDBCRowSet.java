@@ -1,7 +1,8 @@
+package packRowSet;
+
 import javax.sql.rowset.JdbcRowSet;
 import javax.sql.rowset.RowSetFactory;
 import javax.sql.rowset.RowSetProvider;
-import java.sql.*;
 
 public class JDBCRowSet {
     public static void main(String[] args) throws Exception {
