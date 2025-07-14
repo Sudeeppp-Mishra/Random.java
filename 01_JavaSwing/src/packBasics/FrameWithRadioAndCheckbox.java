@@ -1,4 +1,4 @@
-package uipack;
+package packBasics;
 
 import javax.swing.*;
 import java.awt.*;

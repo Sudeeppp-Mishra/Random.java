@@ -1,7 +1,6 @@
-package uipack;
+package packMenu;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.*;
 
 public class FrameWithMenuu {

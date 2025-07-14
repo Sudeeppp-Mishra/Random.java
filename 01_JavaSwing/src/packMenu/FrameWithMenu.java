@@ -1,4 +1,4 @@
-package uipack;
+package packMenu;
 
 import javax.swing.*;
 

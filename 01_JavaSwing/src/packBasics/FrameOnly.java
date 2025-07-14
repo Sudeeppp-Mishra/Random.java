@@ -1,4 +1,4 @@
-package uipack;
+package packBasics;
 
 import javax.swing.*; // Importing Swing package to use JFrame and other UI components
 import java.awt.*;

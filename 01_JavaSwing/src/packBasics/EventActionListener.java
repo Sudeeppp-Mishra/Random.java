@@ -1,4 +1,4 @@
-package uipack;
+package packBasics;
 
 import javax.swing.*;              // For JFrame, JLabel, JButton, JOptionPane, etc.
 import java.awt.*;                 // For layout managers, colors, fonts

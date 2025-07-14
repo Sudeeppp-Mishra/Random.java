@@ -1,7 +1,6 @@
-package uipack;
+package packBasics;
 
 import javax.swing.*; // For JFrame, JLabel etc...
-import javax.swing.border.Border;
 import java.awt.*; // For layout mangers, colors, fonts
 
 public class FrameWithLabel {
