@@ -1,6 +1,8 @@
+package packUDP;
+
 import java.net.*;  // Needed for networking classes like DatagramSocket, DatagramPacket, InetAddress
 
-class Sender {
+class Sender_Client_UDP {
     public static void main(String[] args) throws Exception {
 
         // Step 1: Create a DatagramSocket (like a sending door)
