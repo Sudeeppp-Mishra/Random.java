@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e59ae02-58af-4168-b706-c9401295a400" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../02_LabZone/.idea/02_LabZone.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_Fun/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../03_Fun/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_RMI/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../05_RMI/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="7e59ae02-58af-4168-b706-c9401295a400" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +58,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/sudeepdemishra/Documents/0IntelliJ-IDEA/_GIT-Random.java/01_JavaSwing",
+    "last_opened_file_path": "/Users/sudeepdemishra/Documents/0_JavaPlayGround/_GIT-Random.java/01_JavaSwing",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -94,6 +88,7 @@
       <workItem from="1748414527963" duration="3841000" />
       <workItem from="1748493279120" duration="1417000" />
       <workItem from="1750768984316" duration="62000" />
+      <workItem from="1752478885679" duration="188000" />
     </task>
     <servers />
   </component>
